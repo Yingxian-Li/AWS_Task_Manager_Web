@@ -32,7 +32,9 @@ This project is a simple task manager web app built using **Streamlit**, **AWS L
 Make sure your `.env` file includes:
 
 AWS_ACCESS_KEY_ID=your_key_id
+
 AWS_SECRET_ACCESS_KEY=your_secret
+
 AWS_REGION=us-east-1
 
 ---
@@ -40,10 +42,13 @@ AWS_REGION=us-east-1
 ## 🚀 How to Run
 
 1. Install dependencies:
+
    $ pip install streamlit python-dotenv boto3
 2. Navigate to the project directory (adjust the path if needed):
+
    $ cd ~/path/AWS_Web_TaskManager
 3. Run the Streamlit app:
+
    $ streamlit run main.py
 4. Verify that your AWS credentials in .env are valid and have permissions for Lambda and DynamoDB.
 5. Open in browser: The app should automatically open at http://localhost:8501**.
