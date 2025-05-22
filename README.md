@@ -51,7 +51,7 @@ AWS_REGION=us-east-1
 
    $ streamlit run main.py
 4. Verify that your AWS credentials in .env are valid and have permissions for Lambda and DynamoDB.
-5. Open in browser: The app should automatically open at http://localhost:8501**.
+5. Open in browser: The app should automatically open at http://localhost:8501.
 
 ---
 
